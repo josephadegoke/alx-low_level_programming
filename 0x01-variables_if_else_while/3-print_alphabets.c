@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	char alph[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char alph[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
 	int i;
 
 	for (i = 0; i <= 52; i++)
