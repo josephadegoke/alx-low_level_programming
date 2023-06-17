@@ -11,7 +11,7 @@ int main(void)
 {
 	char myLetters = "abcdefghijklmnopqrstuvwxyz";
 
-	for (myLetters <= 'z'; myLetters--)
+	for (myLetters <= "z"; myLetters--)
 	{
 		putchar(myLetters);
 	}
