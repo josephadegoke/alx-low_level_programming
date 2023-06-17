@@ -7,7 +7,7 @@
  * and whether it is generated than 5, less than 6, or 0
  *
  * Return: Always 0
- * */
+ */
 int main(void)
 {
 	int n;
@@ -21,7 +21,7 @@ int main(void)
 	}
 	else if ((n % 10) == 0)
 	{
-		pritnf("Last digit of %d is %d and is 0\n", n, n % 10);
+		printf("Last digit of %d is %d and is 0\n", n, n % 10);
 	}
 	else ((n % 10) < 6) && (n % 10) != 0)
 	{
