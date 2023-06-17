@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-/**
- * main - Prints numbers from 0 to 9
+/*8
+ * main - Prints single digits from 0
  *
  * Return: 0 (Success)
  */
@@ -13,7 +13,7 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		printf("%d", i);
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
