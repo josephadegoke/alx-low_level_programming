@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-/*8
+/**
  * main - Prints single digits from 0
  *
  * Return: 0 (Success)
